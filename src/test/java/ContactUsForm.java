@@ -58,17 +58,17 @@ public class ContactUsForm {
         Robot robot = new Robot();
         ReusableMethods.wait(3);
         // Altta acilir pencereni asagi kaymasi icin Tıklamak istediğiniz noktanın koordinatlarını belirtin
-        int x = 30; // Örnek olarak 100 x koordinatı
-        int y = 707; // Örnek olarak 200 y koordinatı
+            int x = 30; // Örnek olarak 100 x koordinatı
+            int y = 707; // Örnek olarak 200 y koordinatı
 
-        // Fareyi belirtilen koordinatlara hareket ettir
-        robot.mouseMove(x, y);
+            // Fareyi belirtilen koordinatlara hareket ettir
+            robot.mouseMove(x, y);
 
-        // Sol tıklama yap
+            // Sol tıklama yap
 
-        robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
-        robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
-        ReusableMethods.wait(3);
+            robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+            robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+            ReusableMethods.wait(3);
 
         // Submit iconuna Tikamak icin o noktanın koordinatlari
         int x2 = 250; // Örnek olarak 100 x koordinatı
