@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e32de6f5-a3ac-4460-ac26-678bf01e099e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Search_Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Verify_TestCases_Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationExercises-2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ContactUsForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ContactUsForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Verify_Subscription.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +48,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Nutzer/Desktop/Tester/Projects-Mini Bootcamps/Automationexercises/AutomationExercises-8",
+    "last_opened_file_path": "C:/Users/Nutzer/Desktop/Tester/Projects-Mini Bootcamps/Automationexercises/AutomationExercises-9",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
