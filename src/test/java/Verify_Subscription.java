@@ -38,7 +38,7 @@ public class Verify_Subscription {
 
         //4. Scroll down to footer
 
-        WebElement elementToScroll = driver.findElement(By.xpath("//*[text() = \"Subscription\"]"));
+            WebElement elementToScroll = driver.findElement(By.xpath("//*[text() = \"Subscription\"]"));
         Robot robot = new Robot();
         int x = 24;
         int y = 697;

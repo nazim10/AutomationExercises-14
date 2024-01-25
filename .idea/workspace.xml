@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e32de6f5-a3ac-4460-ac26-678bf01e099e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/VerifySubscriptionInCartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Verify_Subscription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Verify_Subscription.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +44,13 @@
     "TestNG.NegativeLogin.executor": "Run",
     "TestNG.PositiveLogin.executor": "Run",
     "TestNG.Search_Product.executor": "Run",
+    "TestNG.VerifySubscriptionInCartPage.executor": "Run",
     "TestNG.Verify_TestCases_Page.VerifyingTestCasesPage.executor": "Run",
     "TestNG.Verify_TestCases_Page.executor": "Run",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Nutzer/Desktop/Tester/Projects-Mini Bootcamps/Automationexercises/AutomationExercises-9",
+    "last_opened_file_path": "C:/Users/Nutzer/Desktop/Tester/Projects-Mini Bootcamps/Automationexercises/AutomationExercises-10",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -59,21 +61,10 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Search_Product">
+  <component name="RunManager" selected="TestNG.VerifySubscriptionInCartPage">
     <configuration name="EkranKoordinatlari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EkranKoordinatlari" />
       <module name="AutomationExercises-1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContactUsForm" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationExercises-1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ContactUsForm" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -82,6 +73,17 @@
       <module name="AutomationExercises-1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Search_Product" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerifySubscriptionInCartPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationExercises-1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="VerifySubscriptionInCartPage" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -114,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.VerifySubscriptionInCartPage" />
         <item itemvalue="TestNG.Search_Product" />
         <item itemvalue="Application.EkranKoordinatlari" />
         <item itemvalue="TestNG.Verify_TestCases_Page" />
         <item itemvalue="TestNG.Verify_TestCases_Page.VerifyingTestCasesPage" />
-        <item itemvalue="TestNG.ContactUsForm" />
       </list>
     </recent_temporary>
   </component>
