@@ -38,7 +38,8 @@ public class VerifyProductQuantityInCart {
         driver.findElement(By.xpath("(//i[@class =\"fa fa-plus-square\"])[5]")).click();
 
        // 5. Verify product detail is opened
-        // ------Reklami Kapat -----------
+
+        // ------Reklami Kapat (reklamin disindaki bir noktaya tiklayarak reklam kaldirildi -----------
         Robot robot = new Robot();
         int x = 30; // Örnek olarak 100 x koordinatı
         int y = 707; // Örnek olarak 200 y koordinatı
