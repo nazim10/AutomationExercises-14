@@ -41,13 +41,12 @@ public class VerifyProductQuantityInCart {
 
         // ------Reklami Kapat (reklamin disindaki bir noktaya tiklayarak reklam kaldirildi -----------
         Robot robot = new Robot();
-        int x = 30; // Örnek olarak 100 x koordinatı
-        int y = 707; // Örnek olarak 200 y koordinatı
+        int x = 30;
+        int y = 710;
 
         // Fareyi belirtilen koordinatlara hareket ettir
         robot.mouseMove(x, y);
-
-        // Sol tıklama yap
+        // Sol tıklama yap (iki kez de tiklama yapilabilir!)
 
         robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
         robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
