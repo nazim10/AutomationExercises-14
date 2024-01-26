@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e32de6f5-a3ac-4460-ac26-678bf01e099e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/AddProductsInCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/VerifyProductQuantityInCart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,13 +45,15 @@
     "TestNG.NegativeLogin.executor": "Run",
     "TestNG.PositiveLogin.executor": "Run",
     "TestNG.Search_Product.executor": "Run",
+    "TestNG.VerifyProductQuantityInCart.executor": "Run",
+    "TestNG.VerifyProductQuantityInCart.testProductQuantity.executor": "Run",
     "TestNG.VerifySubscriptionInCartPage.executor": "Run",
     "TestNG.Verify_TestCases_Page.VerifyingTestCasesPage.executor": "Run",
     "TestNG.Verify_TestCases_Page.executor": "Run",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Nutzer/Desktop/Tester/Projects-Mini Bootcamps/Automationexercises/AutomationExercises-11",
+    "last_opened_file_path": "C:/Users/Nutzer/Desktop/Tester/Projects-Mini Bootcamps/Automationexercises/AutomationExercises-12",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -62,14 +64,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AddProductsInCart">
-    <configuration name="EkranKoordinatlari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EkranKoordinatlari" />
-      <module name="AutomationExercises-1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.VerifyProductQuantityInCart">
     <configuration name="AddProductsInCart" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationExercises-1" />
       <option name="PACKAGE_NAME" value="" />
@@ -92,6 +87,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VerifyProductQuantityInCart" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationExercises-1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="VerifyProductQuantityInCart" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerifyProductQuantityInCart.testProductQuantity" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationExercises-1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="VerifyProductQuantityInCart" />
+      <option name="METHOD_NAME" value="testProductQuantity" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VerifySubscriptionInCartPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationExercises-1" />
       <option name="PACKAGE_NAME" value="" />
@@ -103,24 +121,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Verify_TestCases_Page" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationExercises-1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Verify_TestCases_Page" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.VerifyProductQuantityInCart" />
+        <item itemvalue="TestNG.VerifyProductQuantityInCart.testProductQuantity" />
         <item itemvalue="TestNG.AddProductsInCart" />
         <item itemvalue="TestNG.VerifySubscriptionInCartPage" />
         <item itemvalue="TestNG.Search_Product" />
-        <item itemvalue="Application.EkranKoordinatlari" />
-        <item itemvalue="TestNG.Verify_TestCases_Page" />
       </list>
     </recent_temporary>
   </component>
