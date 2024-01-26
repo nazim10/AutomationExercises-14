@@ -46,11 +46,11 @@ public class VerifyProductQuantityInCart {
 
         // Fareyi belirtilen koordinatlara hareket ettir
         robot.mouseMove(x, y);
-        // Sol tıklama yap (iki kez de tiklama yapilabilir!)
+        // Sol tıklama yap
 
         robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
         robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
-        ReusableMethods.wait(3);
+        ReusableMethods.wait(2);
 
         driver.findElement(By.xpath("//div[@class=\"product-information\"]")).isDisplayed();
        // 6. Increase quantity to 4
