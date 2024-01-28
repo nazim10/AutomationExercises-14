@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e32de6f5-a3ac-4460-ac26-678bf01e099e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Place_Order_Register_while_Checkout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Place_Order_Register_before_Checkout.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/VerifyProductQuantityInCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/VerifyProductQuantityInCart.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +43,7 @@
     "TestNG.LogoutUser.executor": "Run",
     "TestNG.LogoutUser.testLogout.executor": "Run",
     "TestNG.NegativeLogin.executor": "Run",
+    "TestNG.Place_Order_Register_before_Checkout.executor": "Run",
     "TestNG.Place_Order_Register_while_Checkout.Place_Order_Register_while_Checkout.executor": "Run",
     "TestNG.Place_Order_Register_while_Checkout.executor": "Run",
     "TestNG.PositiveLogin.executor": "Run",
@@ -56,7 +56,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Nutzer/Desktop/Tester/Projects-Mini Bootcamps/Automationexercises/AutomationExercises-13",
+    "last_opened_file_path": "C:/Users/Nutzer/Desktop/Tester/Projects-Mini Bootcamps/Automationexercises/AutomationExercises-14",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -67,10 +67,21 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Place_Order_Register_while_Checkout">
+  <component name="RunManager" selected="TestNG.Place_Order_Register_before_Checkout">
     <configuration name="EkranKoordinatlari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EkranKoordinatlari" />
       <module name="AutomationExercises-1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Place_Order_Register_before_Checkout" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationExercises-1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Place_Order_Register_before_Checkout" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -109,25 +120,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerifyProductQuantityInCart.testProductQuantity" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationExercises-1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VerifyProductQuantityInCart" />
-      <option name="METHOD_NAME" value="testProductQuantity" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Place_Order_Register_before_Checkout" />
         <item itemvalue="TestNG.Place_Order_Register_while_Checkout" />
         <item itemvalue="Application.EkranKoordinatlari" />
         <item itemvalue="TestNG.Place_Order_Register_while_Checkout.Place_Order_Register_while_Checkout" />
         <item itemvalue="TestNG.VerifyProductQuantityInCart" />
-        <item itemvalue="TestNG.VerifyProductQuantityInCart.testProductQuantity" />
       </list>
     </recent_temporary>
   </component>
