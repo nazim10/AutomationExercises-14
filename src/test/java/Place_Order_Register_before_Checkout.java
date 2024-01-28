@@ -11,11 +11,8 @@ import java.time.Duration;
 import java.util.List;
 
 public class Place_Order_Register_before_Checkout {
-
     @Test
     public void PlaceOrderRegisterBeforeCheckout() throws  Exception {
-
-
         // 1. Launch browser
         // 2. Navigate to url 'http://automationexercise.com'
         // 3. Verify that home page is visible successfully
@@ -23,15 +20,11 @@ public class Place_Order_Register_before_Checkout {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         driver.get("https://automationexercise.com/");
-
         String expectedURL = "https://automationexercise.com/";
         String actualURL = driver.getCurrentUrl();
         Assert.assertEquals(expectedURL, actualURL);
-
         // 4. Click 'Signup / Login' button
         driver.findElement(By.xpath("//*[text()=\" Signup / Login\"]")).click();
-
-
         // 5. Fill all details in Signup and create account
         //driver.findElement(By.xpath("//*[text() = \"Register / Login\"]")).click();
         // 9. Fill all details in Signup and create account
@@ -50,10 +43,10 @@ public class Place_Order_Register_before_Checkout {
         Actions action = new Actions(driver);
         driver.findElement(By.xpath("//input[@id= \"id_gender1\"]")).click();
         action.sendKeys(Keys.TAB)
-                .sendKeys("Nazim")
+                .sendKeys("neon")
                 .sendKeys(Keys.TAB)
                 .sendKeys("ebegümeci")
-                .sendKeys("5")
+                .sendKeys("6")
                 .sendKeys(Keys.TAB)
                 .sendKeys("July")
                 .sendKeys(Keys.TAB)
@@ -64,7 +57,7 @@ public class Place_Order_Register_before_Checkout {
                 .sendKeys(Keys.TAB)
                 .sendKeys("North")
                 .sendKeys(Keys.TAB)
-                .sendKeys("Volter")
+                .sendKeys("West")
                 .sendKeys(Keys.TAB)
                 .sendKeys("Nasa")
                 .sendKeys(Keys.TAB)
@@ -96,7 +89,7 @@ public class Place_Order_Register_before_Checkout {
         System.out.println("Account Created      :  " + accountCreated.getText());
         driver.findElement(By.xpath("//*[text()=\"Continue\"]")).click();
 
-        // ---- Reklam Kapat ----------------
+        // ---- Shut down to Add ----------------
         ReusableMethods.wait(2);
         Robot robot1 = new Robot();
         int x2 = 30;
@@ -114,15 +107,14 @@ public class Place_Order_Register_before_Checkout {
         WebElement eklenecekUrun  = driver.findElement(By.xpath("(//a[@class =\"btn btn-default add-to-cart\"])[1]"));
         eklenecekUrun.click();
         ReusableMethods.wait(3);
-        WebElement kartaGit = driver.findElement(By.xpath("//*[text()=\"View Cart\"]"));
-        kartaGit.click();
+        WebElement goToCart = driver.findElement(By.xpath("//*[text()=\"View Cart\"]"));
+        goToCart.click();
         /* ------ List ve for Kullanarak sepete URUNLER ekleme --------------------------------
         //List<WebElement> SepeteEkle = driver.findElements(By.xpath("//a[@class =\"btn btn-default add-to-cart\"]"));
 
         //List<WebElement> ilkUcUrun = SepeteEkle.subList(0, 3);
         //System.out.println("Sepetteki ürün sayisi  :  " + SepeteEkle.size());
         for (WebElement sepeteEkle : ilkUcUrun) {
-
             //  -------Scroll Down to next Element ------------
             WebElement scrollen = driver.findElement(By.xpath("(//h2[@class =\"title text-center\"])[1]"));
             js.executeScript("arguments[0].scrollIntoView(true);", scrollen);
@@ -140,8 +132,8 @@ public class Place_Order_Register_before_Checkout {
         }
         */
         Robot robot3 = new Robot();
-        int x3 = 30; // Örnek olarak 100 x koordinatı
-        int y3 = 707; // Örnek olarak 200 y koordinatı
+        int x3 = 30;
+        int y3 = 707;
         robot1.mouseMove(x3, y3);
         robot1.mousePress(InputEvent.BUTTON1_DOWN_MASK);
         robot1.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
@@ -159,14 +151,14 @@ public class Place_Order_Register_before_Checkout {
             // 13. Enter description in comment text area and click 'Place Order'
         driver.findElement(By.xpath("//textarea[@name=\"message\"]")).sendKeys("See you later Elegator!");
         ReusableMethods.wait(1);
-        WebElement scrol = driver.findElement(By.xpath("//*[text()=\"If you would like to add a comment about your order, please write it in the field below.\"]"));
-        js.executeScript("arguments[0].scrollIntoView(true);", scrol);
+        WebElement scroll2 = driver.findElement(By.xpath("//*[text()=\"If you would like to add a comment about your order, please write it in the field below.\"]"));
+        js.executeScript("arguments[0].scrollIntoView(true);", scroll2);
         ReusableMethods.wait(2);
         driver.findElement(By.xpath("//a[@class=\"btn btn-default check_out\"]")).click();
             // 14. Enter payment details: Name on Card, Card Number, CVC, Expiration date
         WebElement isim = driver.findElement(By.xpath("//input[@name=\"name_on_card\"]"));
         isim.click();
-        action.sendKeys("muaz")
+        action.sendKeys("Lena")
                 .sendKeys(Keys.TAB)
                 .sendKeys("648279303")
                 .sendKeys(Keys.TAB)
@@ -185,8 +177,8 @@ public class Place_Order_Register_before_Checkout {
         driver.findElement(By.xpath("//a[@href = \"/delete_account\"]")).click();
             // 18. Verify 'ACCOUNT DELETED!' and click 'Continue' button
         Robot robot4 = new Robot();
-        int x4 = 30; // Örnek olarak 100 x koordinatı
-        int y4 = 707; // Örnek olarak 200 y koordinatı
+        int x4 = 30;
+        int y4 = 707;
         robot4.mouseMove(x3, y3);
         robot4.mousePress(InputEvent.BUTTON1_DOWN_MASK);
         robot4.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
